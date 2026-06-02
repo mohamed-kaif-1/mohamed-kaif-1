@@ -7,10 +7,20 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=800&lines=👋+Hey%2C+I'm+Kaif+—+building+the+future+with+code;🤖+AI+%7C+Blockchain+%7C+Full-Stack+Developer;🏆+Hackathon+Winner+%7C+Robo+Rumble+3.0+Champion;📍+Chennai%2C+India+%7C+BE+CSE+@+LICET+2028)](https://github.com/mohamed-kaif-1)
 
 <img src="https://komarev.com/ghpvc/?username=mohamed-kaif-1&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" />
+
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/mohamed-kaif-sa/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-kaif-sa/)
+<a href="https://github.com/mohamed-kaif-1">
+  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 &nbsp;
-[![Email](https://img.shields.io/badge/Gmail-mohamedkaif.sa@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohamedkaif.sa@gmail.com)
+<a href="mailto:mohamedkaif.sa@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 
 </div>
 
@@ -117,6 +127,7 @@ class MohamedKaif:
 </div>
 
 ---
+
 
 
 ## 🚀 Projects
@@ -226,9 +237,17 @@ class MohamedKaif:
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed%20Kaif%20SA-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-kaif-sa/)
-[![GitHub](https://img.shields.io/badge/GitHub-mohamed--kaif--1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohamed-kaif-1)
-[![Gmail](https://img.shields.io/badge/Gmail-mohamedkaif.sa@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohamedkaif.sa@gmail.com)
+<a href="https://www.linkedin.com/in/mohamed-kaif-sa/">
+  <img src="https://img.shields.io/badge/LinkedIn-Mohamed%20Kaif%20SA-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://github.com/mohamed-kaif-1">
+  <img src="https://img.shields.io/badge/GitHub-mohamed--kaif--1-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+&nbsp;
+<a href="mailto:mohamedkaif.sa@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 
 > *"Build things that matter. Break things that don't."* — Kaif
 
