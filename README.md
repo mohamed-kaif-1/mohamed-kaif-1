@@ -118,25 +118,6 @@ class MohamedKaif:
 
 ---
 
-## 📈 Activity Graph
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mohamed-kaif-1&theme=tokyo-night&bg_color=0d1117&color=a78bfa&line=ec4899&point=38bdae&area=true&hide_border=true)](https://github.com/mohamed-kaif-1)
-
-</div>
-
----
-
-## 🏆 Trophy Wall
-
-<div align="center">
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=mohamed-kaif-1&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
 
 ## 🚀 Projects
 
