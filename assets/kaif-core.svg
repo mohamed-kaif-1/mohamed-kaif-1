@@ -1,0 +1,122 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06080C"/>
+      <stop offset="0.52" stop-color="#0B1017"/>
+      <stop offset="1" stop-color="#07110E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="60" y1="0" x2="1110" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7CFFB2"/>
+      <stop offset="0.55" stop-color="#72E6FF"/>
+      <stop offset="1" stop-color="#B497FF"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#7CFFB2" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#7CFFB2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#88A19A" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .scan { animation: scan 5.5s linear infinite; }
+    .pulse1 { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+    .pulse2 { animation: pulse 2.8s ease-in-out .7s infinite; transform-origin: center; }
+    .pulse3 { animation: pulse 2.8s ease-in-out 1.4s infinite; transform-origin: center; }
+    .dash { stroke-dasharray: 8 10; animation: dash 7s linear infinite; }
+    .cursor { animation: blink 1s steps(2,end) infinite; }
+    .cycle1 { animation: cycle1 9s ease-in-out infinite; }
+    .cycle2 { animation: cycle2 9s ease-in-out infinite; }
+    .cycle3 { animation: cycle3 9s ease-in-out infinite; }
+    .floatA { animation: floatA 4s ease-in-out infinite; }
+    .floatB { animation: floatB 4.5s ease-in-out .8s infinite; }
+    @keyframes scan { 0% { transform: translateY(-70px); opacity:0; } 8% {opacity:.7;} 92% {opacity:.7;} 100% { transform: translateY(500px); opacity:0;} }
+    @keyframes pulse { 0%,100% { opacity:.38; } 50% { opacity:1; } }
+    @keyframes dash { to { stroke-dashoffset:-180; } }
+    @keyframes blink { 0%,45% {opacity:1;} 46%,100% {opacity:0;} }
+    @keyframes cycle1 { 0%,27% {opacity:1;} 33%,94% {opacity:0;} 100% {opacity:1;} }
+    @keyframes cycle2 { 0%,31% {opacity:0;} 36%,60% {opacity:1;} 66%,100% {opacity:0;} }
+    @keyframes cycle3 { 0%,64% {opacity:0;} 69%,94% {opacity:1;} 100% {opacity:0;} }
+    @keyframes floatA { 0%,100% {transform:translateY(0)} 50% {transform:translateY(-8px)} }
+    @keyframes floatB { 0%,100% {transform:translateY(0)} 50% {transform:translateY(7px)} }
+  </style>
+
+  <rect x="1" y="1" width="1198" height="428" rx="24" fill="url(#bg)" stroke="#1E2A27"/>
+  <rect x="1" y="1" width="1198" height="428" rx="24" fill="url(#grid)"/>
+  <circle cx="1010" cy="170" r="220" fill="url(#glow)" opacity=".6"/>
+
+  <!-- animated scan beam -->
+  <g class="scan">
+    <rect x="20" y="-35" width="1160" height="40" fill="url(#accent)" opacity=".035"/>
+    <line x1="40" y1="4" x2="1160" y2="4" stroke="#7CFFB2" stroke-opacity=".25"/>
+  </g>
+
+  <!-- top status bar -->
+  <circle cx="54" cy="42" r="5" fill="#FF6B6B"/>
+  <circle cx="72" cy="42" r="5" fill="#FFD166"/>
+  <circle cx="90" cy="42" r="5" fill="#7CFFB2"/>
+  <text x="111" y="47" class="mono" fill="#6F827D" font-size="13" letter-spacing="2">KAIF://BUILD-LAB</text>
+  <text x="1018" y="47" class="mono" fill="#7CFFB2" font-size="12" letter-spacing="2">● ONLINE</text>
+
+  <!-- left content -->
+  <text x="64" y="112" class="mono" fill="#6F827D" font-size="16" letter-spacing="3">MOHAMED KAIF S A</text>
+
+  <text x="61" y="177" class="mono" fill="#F1F7F5" font-size="54" font-weight="700" letter-spacing="-2">I BUILD THINGS</text>
+  <text x="62" y="228" class="mono" fill="url(#accent)" font-size="54" font-weight="700" letter-spacing="-2">THAT HAVE TO THINK.</text>
+
+  <text x="66" y="281" class="mono cycle1" fill="#7CFFB2" font-size="17" letter-spacing="2">AI SYSTEMS / AGENTS / MULTIMODAL</text>
+  <text x="66" y="281" class="mono cycle2" fill="#72E6FF" font-size="17" letter-spacing="2">SECURITY / PROOF / BLOCKCHAIN</text>
+  <text x="66" y="281" class="mono cycle3" fill="#B497FF" font-size="17" letter-spacing="2">FULL-STACK / MOTION / PROTOTYPES</text>
+  <rect x="505" y="262" width="10" height="22" rx="2" fill="#7CFFB2" class="cursor"/>
+
+  <text x="65" y="326" class="mono" fill="#91A19D" font-size="14">CSE @ LICET · CHENNAI · 2024—2028</text>
+  <text x="65" y="359" class="mono" fill="#60716C" font-size="13">build → test → break → learn → rebuild → ship</text>
+
+  <line x1="64" y1="389" x2="706" y2="389" stroke="url(#accent)" stroke-width="2" class="dash" opacity=".7"/>
+
+  <!-- right system constellation -->
+  <g opacity=".9">
+    <path d="M830 116 L940 85 L1052 132 L1102 235 L1004 310 L890 285 L817 205 Z"
+          stroke="#37554B" stroke-width="1.5" class="dash"/>
+    <path d="M940 85 L966 195 L1102 235 M817 205 L966 195 L1004 310 M830 116 L966 195 L1052 132"
+          stroke="#274139" stroke-width="1" opacity=".8"/>
+
+    <g class="floatA">
+      <circle cx="940" cy="85" r="27" fill="#0B1512" stroke="#7CFFB2" stroke-opacity=".55"/>
+      <circle cx="940" cy="85" r="5" fill="#7CFFB2" class="pulse1"/>
+      <text x="940" y="124" class="mono" fill="#7CFFB2" font-size="10" text-anchor="middle" letter-spacing="1">AI</text>
+    </g>
+
+    <g class="floatB">
+      <circle cx="1052" cy="132" r="23" fill="#0A1216" stroke="#72E6FF" stroke-opacity=".5"/>
+      <circle cx="1052" cy="132" r="5" fill="#72E6FF" class="pulse2"/>
+      <text x="1052" y="167" class="mono" fill="#72E6FF" font-size="10" text-anchor="middle" letter-spacing="1">WEB</text>
+    </g>
+
+    <circle cx="1102" cy="235" r="19" fill="#11101A" stroke="#B497FF" stroke-opacity=".55"/>
+    <circle cx="1102" cy="235" r="5" fill="#B497FF" class="pulse3"/>
+    <text x="1102" y="266" class="mono" fill="#B497FF" font-size="10" text-anchor="middle" letter-spacing="1">CHAIN</text>
+
+    <circle cx="1004" cy="310" r="22" fill="#0B1512" stroke="#7CFFB2" stroke-opacity=".4"/>
+    <circle cx="1004" cy="310" r="4" fill="#7CFFB2" class="pulse2"/>
+    <text x="1004" y="344" class="mono" fill="#8DA69D" font-size="10" text-anchor="middle" letter-spacing="1">SECURE</text>
+
+    <circle cx="890" cy="285" r="18" fill="#0A1216" stroke="#72E6FF" stroke-opacity=".4"/>
+    <circle cx="890" cy="285" r="4" fill="#72E6FF" class="pulse3"/>
+
+    <circle cx="817" cy="205" r="15" fill="#11101A" stroke="#B497FF" stroke-opacity=".4"/>
+    <circle cx="817" cy="205" r="4" fill="#B497FF" class="pulse1"/>
+
+    <circle cx="966" cy="195" r="44" fill="#0A1210" stroke="url(#accent)" stroke-width="1.5"/>
+    <circle cx="966" cy="195" r="33" fill="none" stroke="#7CFFB2" stroke-opacity=".16" class="dash"/>
+    <text x="966" y="190" class="mono" fill="#F1F7F5" font-size="13" text-anchor="middle" font-weight="700">KAIF</text>
+    <text x="966" y="208" class="mono" fill="#6F827D" font-size="9" text-anchor="middle" letter-spacing="2">CORE</text>
+  </g>
+
+  <text x="1141" y="401" class="mono" fill="#41524D" font-size="9" text-anchor="end" letter-spacing="2">v26.09 // CURIOUS BY DEFAULT</text>
+</svg>
