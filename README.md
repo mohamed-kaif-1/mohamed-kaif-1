@@ -171,7 +171,7 @@ I’m usually interested if it involves building something that hasn’t been re
 
 <a href="mailto:mohamedkaif.sa@gmail.com"><b>mohamedkaif.sa@gmail.com</b></a>
 &nbsp;·&nbsp;
-<a href="https://mohamedkaif.vercel.app/"><b>mohamedkaif.vercel.app</b></a>
+<a href="https://mohamedkaif.netlify.app/"><b>mohamedkaif.vercel.app</b></a>
 
 <br/><br/>
 
