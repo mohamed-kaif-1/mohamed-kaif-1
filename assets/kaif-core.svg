@@ -1,122 +1,114 @@
-<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="410" viewBox="0 0 1280 410" role="img" aria-label="Mohamed Kaif animated developer banner — artificial intelligence, full stack, secure systems">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#06080C"/>
-      <stop offset="0.52" stop-color="#0B1017"/>
-      <stop offset="1" stop-color="#07110E"/>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090c13"/>
+      <stop offset=".55" stop-color="#0d101a"/>
+      <stop offset="1" stop-color="#111422"/>
     </linearGradient>
-    <linearGradient id="accent" x1="60" y1="0" x2="1110" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7CFFB2"/>
-      <stop offset="0.55" stop-color="#72E6FF"/>
-      <stop offset="1" stop-color="#B497FF"/>
+    <linearGradient id="ruby" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff365e"/>
+      <stop offset=".55" stop-color="#ff647d"/>
+      <stop offset="1" stop-color="#fc3153"/>
     </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#7CFFB2" stop-opacity=".28"/>
-      <stop offset="1" stop-color="#7CFFB2" stop-opacity="0"/>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fe4e72" stop-opacity=".1"/>
+      <stop offset=".5" stop-color="#fe4e72" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#fe4e72" stop-opacity=".1"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#c52551" stop-opacity=".23"/>
+      <stop offset=".56" stop-color="#a02953" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#a02953" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#88A19A" stroke-opacity=".08"/>
+    <pattern id="microGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity=".035" stroke-width="1"/>
     </pattern>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8"/>
-    </filter>
+    <clipPath id="round"><rect x="1" y="1" width="1278" height="408" rx="20"/></clipPath>
+    <style><![CDATA[
+      .sans{font-family: 'Segoe UI',Inter,Arial,sans-serif}
+      .mono{font-family:Consolas,'Courier New',monospace}
+      .bright{fill:#f5f6fb}
+      .muted{fill:#87909e}
+      .orbit-spin{transform-origin:1014px 205px;animation:orbitspin 25s linear infinite}
+      .orbit-back{transform-origin:1014px 205px;animation:orbitspin 35s linear infinite reverse}
+      .pulsed{animation:pulsed 3s ease-in-out infinite}
+      .path-flow{stroke-dasharray:10 13;animation:dash 7s linear infinite}
+      .cursor{animation:blink 1.2s steps(1,end) infinite}
+      .drift{animation:drift 5s ease-in-out infinite}
+      .shine{animation:shine 6s ease-in-out infinite}
+      @keyframes orbitspin {to{transform:rotate(360deg)}}
+      @keyframes pulsed {0%,100%{opacity:.45}50%{opacity:1}}
+      @keyframes dash {to{stroke-dashoffset:-138}}
+      @keyframes blink {50%{opacity:0}}
+      @keyframes drift {0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+      @keyframes shine {0%,100%{opacity:.15}50%{opacity:.65}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    ]]></style>
   </defs>
 
-  <style>
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
-    .scan { animation: scan 5.5s linear infinite; }
-    .pulse1 { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
-    .pulse2 { animation: pulse 2.8s ease-in-out .7s infinite; transform-origin: center; }
-    .pulse3 { animation: pulse 2.8s ease-in-out 1.4s infinite; transform-origin: center; }
-    .dash { stroke-dasharray: 8 10; animation: dash 7s linear infinite; }
-    .cursor { animation: blink 1s steps(2,end) infinite; }
-    .cycle1 { animation: cycle1 9s ease-in-out infinite; }
-    .cycle2 { animation: cycle2 9s ease-in-out infinite; }
-    .cycle3 { animation: cycle3 9s ease-in-out infinite; }
-    .floatA { animation: floatA 4s ease-in-out infinite; }
-    .floatB { animation: floatB 4.5s ease-in-out .8s infinite; }
-    @keyframes scan { 0% { transform: translateY(-70px); opacity:0; } 8% {opacity:.7;} 92% {opacity:.7;} 100% { transform: translateY(500px); opacity:0;} }
-    @keyframes pulse { 0%,100% { opacity:.38; } 50% { opacity:1; } }
-    @keyframes dash { to { stroke-dashoffset:-180; } }
-    @keyframes blink { 0%,45% {opacity:1;} 46%,100% {opacity:0;} }
-    @keyframes cycle1 { 0%,27% {opacity:1;} 33%,94% {opacity:0;} 100% {opacity:1;} }
-    @keyframes cycle2 { 0%,31% {opacity:0;} 36%,60% {opacity:1;} 66%,100% {opacity:0;} }
-    @keyframes cycle3 { 0%,64% {opacity:0;} 69%,94% {opacity:1;} 100% {opacity:0;} }
-    @keyframes floatA { 0%,100% {transform:translateY(0)} 50% {transform:translateY(-8px)} }
-    @keyframes floatB { 0%,100% {transform:translateY(0)} 50% {transform:translateY(7px)} }
-  </style>
+  <g clip-path="url(#round)">
+    <rect width="1280" height="410" fill="url(#base)"/>
+    <rect width="1280" height="410" fill="url(#microGrid)"/>
+    <circle cx="1014" cy="205" r="295" fill="url(#halo)"/>
+    <path d="M0 0H1280" stroke="#ff617b" stroke-opacity=".5" stroke-width="2"/>
+    <path d="M0 409H1280" stroke="#ff617b" stroke-opacity=".24" stroke-width="2"/>
+    <path d="M819 28V382" stroke="#fff" stroke-opacity=".10" stroke-dasharray="3 10"/>
+    <path d="M38 48H200" stroke="#ff4d6a" stroke-opacity=".42" stroke-width="1"/>
+    <circle cx="38" cy="48" r="3" fill="#ff496a"/>
+    <text x="52" y="43" font-size="13" letter-spacing="3" font-weight="700" class="mono" fill="#ff687f">KAIF / DEV LAB</text>
+    <text x="38" y="112" font-size="12" letter-spacing="2.1" class="mono muted">CREATING THINGS THAT THINK, PROTECT &amp; ADAPT</text>
 
-  <rect x="1" y="1" width="1198" height="428" rx="24" fill="url(#bg)" stroke="#1E2A27"/>
-  <rect x="1" y="1" width="1198" height="428" rx="24" fill="url(#grid)"/>
-  <circle cx="1010" cy="170" r="220" fill="url(#glow)" opacity=".6"/>
+    <text x="33" y="222" font-size="89" font-weight="800" letter-spacing="-4.8" class="sans bright">MOHAMED</text>
+    <text x="35" y="307" font-size="93" font-weight="800" letter-spacing="-4.8" class="sans" fill="url(#ruby)">KAIF<tspan fill="#f5f6fb">.</tspan></text>
+    <path d="M39 324H218" stroke="url(#ruby)" stroke-width="3" stroke-linecap="round"/>
+    <text x="38" y="354" font-size="15" letter-spacing="2.2" class="mono" fill="#bec5d0">AI / FULL STACK / SECURE SYSTEMS</text>
 
-  <!-- animated scan beam -->
-  <g class="scan">
-    <rect x="20" y="-35" width="1160" height="40" fill="url(#accent)" opacity=".035"/>
-    <line x1="40" y1="4" x2="1160" y2="4" stroke="#7CFFB2" stroke-opacity=".25"/>
-  </g>
-
-  <!-- top status bar -->
-  <circle cx="54" cy="42" r="5" fill="#FF6B6B"/>
-  <circle cx="72" cy="42" r="5" fill="#FFD166"/>
-  <circle cx="90" cy="42" r="5" fill="#7CFFB2"/>
-  <text x="111" y="47" class="mono" fill="#6F827D" font-size="13" letter-spacing="2">KAIF://BUILD-LAB</text>
-  <text x="1018" y="47" class="mono" fill="#7CFFB2" font-size="12" letter-spacing="2">● ONLINE</text>
-
-  <!-- left content -->
-  <text x="64" y="112" class="mono" fill="#6F827D" font-size="16" letter-spacing="3">MOHAMED KAIF S A</text>
-
-  <text x="61" y="177" class="mono" fill="#F1F7F5" font-size="54" font-weight="700" letter-spacing="-2">I BUILD THINGS</text>
-  <text x="62" y="228" class="mono" fill="url(#accent)" font-size="54" font-weight="700" letter-spacing="-2">THAT HAVE TO THINK.</text>
-
-  <text x="66" y="281" class="mono cycle1" fill="#7CFFB2" font-size="17" letter-spacing="2">AI SYSTEMS / AGENTS / MULTIMODAL</text>
-  <text x="66" y="281" class="mono cycle2" fill="#72E6FF" font-size="17" letter-spacing="2">SECURITY / PROOF / BLOCKCHAIN</text>
-  <text x="66" y="281" class="mono cycle3" fill="#B497FF" font-size="17" letter-spacing="2">FULL-STACK / MOTION / PROTOTYPES</text>
-  <rect x="505" y="262" width="10" height="22" rx="2" fill="#7CFFB2" class="cursor"/>
-
-  <text x="65" y="326" class="mono" fill="#91A19D" font-size="14">CSE @ LICET · CHENNAI · 2024—2028</text>
-  <text x="65" y="359" class="mono" fill="#60716C" font-size="13">build → test → break → learn → rebuild → ship</text>
-
-  <line x1="64" y1="389" x2="706" y2="389" stroke="url(#accent)" stroke-width="2" class="dash" opacity=".7"/>
-
-  <!-- right system constellation -->
-  <g opacity=".9">
-    <path d="M830 116 L940 85 L1052 132 L1102 235 L1004 310 L890 285 L817 205 Z"
-          stroke="#37554B" stroke-width="1.5" class="dash"/>
-    <path d="M940 85 L966 195 L1102 235 M817 205 L966 195 L1004 310 M830 116 L966 195 L1052 132"
-          stroke="#274139" stroke-width="1" opacity=".8"/>
-
-    <g class="floatA">
-      <circle cx="940" cy="85" r="27" fill="#0B1512" stroke="#7CFFB2" stroke-opacity=".55"/>
-      <circle cx="940" cy="85" r="5" fill="#7CFFB2" class="pulse1"/>
-      <text x="940" y="124" class="mono" fill="#7CFFB2" font-size="10" text-anchor="middle" letter-spacing="1">AI</text>
+    <g transform="translate(38 377)">
+      <circle cx="6" cy="0" r="5" fill="#ff5472" class="pulsed"/>
+      <text x="22" y="5" font-size="11" letter-spacing="1.6" class="mono muted">BUILD  /  DEBUG  /  SHIP</text>
+      <rect class="cursor" x="236" y="-9" width="8" height="14" rx="1" fill="#ff647d"/>
     </g>
 
-    <g class="floatB">
-      <circle cx="1052" cy="132" r="23" fill="#0A1216" stroke="#72E6FF" stroke-opacity=".5"/>
-      <circle cx="1052" cy="132" r="5" fill="#72E6FF" class="pulse2"/>
-      <text x="1052" y="167" class="mono" fill="#72E6FF" font-size="10" text-anchor="middle" letter-spacing="1">WEB</text>
+    <!-- Animated network instrument -->
+    <g opacity=".8">
+      <path d="M850 81H894M1158 322H1227" stroke="#ff5875" stroke-opacity=".25"/>
+      <path d="M851 94H881M1170 309H1227" stroke="#fff" stroke-opacity=".16"/>
+      <text x="852" y="75" font-size="11" letter-spacing="2" class="mono muted">NODE_01</text>
+      <text x="1158" y="338" font-size="11" letter-spacing="2" class="mono muted">ACTIVE</text>
     </g>
-
-    <circle cx="1102" cy="235" r="19" fill="#11101A" stroke="#B497FF" stroke-opacity=".55"/>
-    <circle cx="1102" cy="235" r="5" fill="#B497FF" class="pulse3"/>
-    <text x="1102" y="266" class="mono" fill="#B497FF" font-size="10" text-anchor="middle" letter-spacing="1">CHAIN</text>
-
-    <circle cx="1004" cy="310" r="22" fill="#0B1512" stroke="#7CFFB2" stroke-opacity=".4"/>
-    <circle cx="1004" cy="310" r="4" fill="#7CFFB2" class="pulse2"/>
-    <text x="1004" y="344" class="mono" fill="#8DA69D" font-size="10" text-anchor="middle" letter-spacing="1">SECURE</text>
-
-    <circle cx="890" cy="285" r="18" fill="#0A1216" stroke="#72E6FF" stroke-opacity=".4"/>
-    <circle cx="890" cy="285" r="4" fill="#72E6FF" class="pulse3"/>
-
-    <circle cx="817" cy="205" r="15" fill="#11101A" stroke="#B497FF" stroke-opacity=".4"/>
-    <circle cx="817" cy="205" r="4" fill="#B497FF" class="pulse1"/>
-
-    <circle cx="966" cy="195" r="44" fill="#0A1210" stroke="url(#accent)" stroke-width="1.5"/>
-    <circle cx="966" cy="195" r="33" fill="none" stroke="#7CFFB2" stroke-opacity=".16" class="dash"/>
-    <text x="966" y="190" class="mono" fill="#F1F7F5" font-size="13" text-anchor="middle" font-weight="700">KAIF</text>
-    <text x="966" y="208" class="mono" fill="#6F827D" font-size="9" text-anchor="middle" letter-spacing="2">CORE</text>
+    <g fill="none" transform="translate(1014 205)">
+      <circle r="159" stroke="#ff667f" stroke-opacity=".12" stroke-width="1"/>
+      <circle r="123" stroke="#ff667f" stroke-opacity=".2" stroke-width="1"/>
+      <circle r="88" stroke="#fa5577" stroke-opacity=".34" stroke-width="1"/>
+      <circle r="53" stroke="#fa5577" stroke-opacity=".40" stroke-width="1"/>
+      <path d="M-172 0H172M0-172V172" stroke="#fff" stroke-opacity=".08"/>
+    </g>
+    <g class="orbit-spin" transform="translate(1014 205)" fill="none">
+      <circle r="145" stroke="url(#orbit)" stroke-width="2.5" stroke-dasharray="93 151 31 637" stroke-linecap="round"/>
+      <circle cx="0" cy="-145" r="6" fill="#ff5a78" stroke="none"/>
+      <circle cx="0" cy="-145" r="13" stroke="#ff5875" stroke-opacity=".25"/>
+    </g>
+    <g class="orbit-back" transform="translate(1014 205)" fill="none">
+      <circle r="107" stroke="#9c6276" stroke-width="1.5" stroke-opacity=".75" stroke-dasharray="15 20 4 15"/>
+      <circle cx="107" cy="0" r="4.5" fill="#ff95a7" stroke="none"/>
+    </g>
+    <circle cx="1014" cy="205" r="64" fill="#101522" stroke="#fb496a" stroke-opacity=".45"/>
+    <circle cx="1014" cy="205" r="57" fill="url(#halo)" class="pulsed"/>
+    <g class="drift" font-family="Consolas,'Courier New',monospace" font-weight="700" text-anchor="middle">
+      <text x="1014" y="213" font-size="52" letter-spacing="-7" fill="#fff">&lt;/&gt;</text>
+    </g>
+    <g stroke="#ff5e7e" stroke-width="2" fill="none" class="path-flow">
+      <path d="M850 342h46l32-32" opacity=".6"/>
+      <path d="M1152 96h-45l-17 19" opacity=".6"/>
+    </g>
+    <g class="pulsed" fill="#ff6480">
+      <circle cx="897" cy="342" r="3"/>
+      <circle cx="1153" cy="96" r="3"/>
+    </g>
+    <g class="mono" font-size="10" letter-spacing="1.5" fill="#8691a2">
+      <text x="866" y="370">SIGNAL // 001</text>
+      <text x="1139" y="62">MK.OS</text>
+    </g>
+    <rect x="8" y="8" width="1264" height="394" rx="14" fill="none" stroke="#fff" stroke-opacity=".08"/>
   </g>
-
-  <text x="1141" y="401" class="mono" fill="#41524D" font-size="9" text-anchor="end" letter-spacing="2">v26.09 // CURIOUS BY DEFAULT</text>
 </svg>
