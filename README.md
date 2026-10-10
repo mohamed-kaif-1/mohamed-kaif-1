@@ -5,7 +5,7 @@
 
 <br/><br/>
 
-<a href="https://mohamedkaif.vercel.app/">
+<a href="https://mohamedkaifsa.vercel.app/">
   <img src="https://img.shields.io/badge/PORTFOLIO-EXPLORE-8B1E3F?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" />
 </a>
 &nbsp;
@@ -223,7 +223,7 @@ I enjoy solving complex problems, designing software architectures, and creating
 
 <br/>
 
-<a href="https://mohamedkaif.vercel.app/">
+<a href="https://mohamedkaifsa.vercel.app/">
   <img src="https://img.shields.io/badge/PORTFOLIO-0D1117?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 &nbsp;
