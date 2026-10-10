@@ -1,17 +1,19 @@
 
 <div align="center">
 
-<img src="./assets/kaif-core.svg" width="100%" alt="Mohamed Kaif — animated developer banner" />
+<img src="./assets/kaif-core.svg" width="100%" alt="Mohamed Kaif — Developer Profile" />
 
 <br />
 
-<a href="https://mohamedkaif.vercel.app/">PORTFOLIO</a> &nbsp;·&nbsp;
-<a href="https://github.com/mohamed-kaif-1?tab=repositories">PROJECTS</a> &nbsp;·&nbsp;
-<a href="mailto:mohamedkaif.sa@gmail.com">EMAIL</a>
+<a href="https://mohamedkaif.vercel.app/">PORTFOLIO</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/mohamed-kaif-1?tab=repositories">REPOSITORIES</a>
+&nbsp;·&nbsp;
+<a href="mailto:mohamedkaif.sa@gmail.com">CONTACT</a>
 
 <br /><br />
 
-<sub>Computer Science @ LICET &nbsp;·&nbsp; Chennai, India</sub>
+<sub>Computer Science @ LICET · Chennai, India</sub>
 
 </div>
 
@@ -19,94 +21,102 @@
 
 ### `01 / about`
 
-I'm **Mohamed Kaif** — building at the intersection of **AI, full-stack engineering, and secure systems**. I like taking ambitious ideas from prototype to working software, with as much care for the interface as the architecture.
+I'm **Mohamed Kaif** — a developer exploring the intersection of **Artificial Intelligence, Full-Stack Engineering, and Cybersecurity**.
 
-**Currently exploring:** multimodal AI · intelligent agents · real-time 3D experiences
+I build intelligent applications, experiment with emerging technologies, and turn ideas into working software.
 
-### `02 / selected work`
+**Focus:** AI/ML · Intelligent Agents · Full-Stack Development · Secure Systems
+
+---
+
+### `02 / featured repositories`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Poneglyph** &nbsp; <sub>IN DEVELOPMENT</sub>
+### [SheProof](https://github.com/mohamed-kaif-1/SheProof)
 
-Multimodal media authenticity analysis for manipulated and AI-generated images and audio.
+**Blockchain-Based Evidence Verification**
 
-`Python` `FastAPI` `React` `PostgreSQL`
+Tamper-evident digital evidence verification using SHA-256 hashing and Ethereum blockchain timestamping.
 
-</td>
-<td width="50%" valign="top">
-
-**Zirumi** &nbsp; <sub>IN DEVELOPMENT</sub>
-
-Voice-first interactive 3D AI avatar exploring speech, character voices, and persistent memory.
-
-`Three.js` `Speech AI` `Memory`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Chrissoft AI](https://github.com/Joshuamathewj2/Chrissoft)** &nbsp; <sub>TEAM PROJECT</sub>
-
-B2B procurement and vendor-management platform, with intelligent business workflows in exploration.
-
-`TypeScript` `PostgreSQL` `Full Stack`
+`React` `Solidity` `Ethers.js`
 
 </td>
 <td width="50%" valign="top">
 
-**[SheProof](https://github.com/mohamed-kaif-1/SheProof)**
+### [Hindsight AI](https://github.com/mohamed-kaif-1/HindSigthAI)
 
-Tamper-evident digital evidence verification using cryptographic hashes and blockchain timestamping.
+**Predictive AI Coding Copilot**
 
-`React` `Solidity` `Ethereum`
+An adaptive coding assistant that analyzes recurring mistakes and provides personalized suggestions.
+
+`React` `FastAPI` `Python` `AI`
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
-**[Hindsight AI](https://github.com/mohamed-kaif-1/HindSigthAI)**
+### [AuthForge](https://github.com/mohamed-kaif-1/AuthForge)
 
-Adaptive coding copilot that learns from recurring mistakes to give contextual feedback.
+**AI-Powered Authorization System**
 
-`React` `FastAPI` `MongoDB`
-
-</td>
-<td width="50%" valign="top">
-
-**[AuthForge](https://github.com/mohamed-kaif-1/AuthForge)**
-
-AI-assisted authorization experiments with controlled actions, approvals, and audit trails.
+An intelligent authorization platform exploring natural-language actions, risk classification, approval workflows, and audit logs.
 
 `Next.js` `TypeScript` `Supabase`
 
 </td>
+<td width="50%" valign="top">
+
+### [CrisisMindAI](https://github.com/mohamed-kaif-1/CrisisMindAI)
+
+**AI Crisis Response Experiment**
+
+An experimental application exploring AI-assisted crisis-response workflows and intelligent interfaces.
+
+`React` `Vite` `JavaScript`
+
+</td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
-**Code Garden** &nbsp; <sub>DESKTOP PROJECT</sub>
+### [Image Identifier](https://github.com/mohamed-kaif-1/image-identifier)
 
-Gamified Java learning with live code checks and a virtual garden that grows as you progress.
+**Python Image Recognition**
 
-`Java` `JavaFX` `JShell`
+An image recognition project experimenting with visual identification using Python.
+
+`Python` `Image Recognition`
 
 </td>
 <td width="50%" valign="top">
 
-**[Interactive Portfolio](https://github.com/mohamed-kaif-1/MohamedKaif-Portfolio)** &nbsp; <sub>[LIVE ↗](https://mohamedkaif.vercel.app/)</sub>
+### [Interactive Portfolio](https://github.com/mohamed-kaif-1/MohamedKaif-Portfolio)
 
-A motion-led portfolio focused on storytelling, interactions, and visual detail.
+**Creative Developer Portfolio**
 
-`Frontend` `Animation` `UI/UX`
+A motion-focused portfolio exploring interactive design, visual storytelling, and modern web experiences.
+
+[Live Website ↗](https://mohamedkaif.vercel.app/)
+
+`Frontend` `UI/UX` `Animation`
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+[Explore All Repositories ↗](https://github.com/mohamed-kaif-1?tab=repositories)
+
+</div>
+
+---
 
 ### `03 / tech stack`
 
@@ -114,30 +124,32 @@ A motion-led portfolio focused on storytelling, interactions, and visual detail.
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,ts&theme=dark&perline=6" alt="Python, Java, C, C++, JavaScript and TypeScript" />
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,ts&theme=dark&perline=6" />
 
 <br />
 
-**AI & Application Development**
+**Frameworks & AI**
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi,pytorch,threejs&theme=dark&perline=6" alt="React, Next.js, Node.js, FastAPI, PyTorch and Three.js" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi,pytorch,threejs&theme=dark&perline=6" />
 
 <br />
 
 **Databases & Developer Tools**
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,supabase,docker,git,github,solidity&theme=dark&perline=8" alt="PostgreSQL, MySQL, MongoDB, Supabase, Docker, Git, GitHub and Solidity" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,supabase,docker,git,github,solidity&theme=dark&perline=8" />
 
 </div>
 
-### `04 / activity`
+---
+
+### `04 / contribution activity`
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohamed-kaif-1/mohamed-kaif-1/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohamed-kaif-1/mohamed-kaif-1/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/mohamed-kaif-1/mohamed-kaif-1/output/github-contribution-grid-snake.svg" alt="Animated GitHub contribution history" width="100%" />
+  <img src="https://raw.githubusercontent.com/mohamed-kaif-1/mohamed-kaif-1/output/github-contribution-grid-snake.svg" alt="Contribution Snake Animation" width="100%" />
 </picture>
 
 </div>
@@ -146,10 +158,14 @@ A motion-led portfolio focused on storytelling, interactions, and visual detail.
 
 <div align="center">
 
-**Have something interesting to build?**
+### `connection.request()`
 
-[Let's connect](mailto:mohamedkaif.sa@gmail.com) &nbsp;·&nbsp; [Explore my work](https://mohamedkaif.vercel.app/)
+**Have an interesting idea or something worth building?**
 
-<sub>build → test → refine → ship</sub>
+[Portfolio](https://mohamedkaif.vercel.app/) · [GitHub](https://github.com/mohamed-kaif-1) · [Email](mailto:mohamedkaif.sa@gmail.com)
+
+<br />
+
+<sub>DESIGN. DEVELOP. DEBUG. DEPLOY.</sub>
 
 </div>
